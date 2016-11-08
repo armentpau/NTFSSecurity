@@ -1,0 +1,10 @@
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.dll.config
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.pdb
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.XML
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.dll.CodeAnalysisLog.xml
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\bin\Debug\AlphaFS.dll.lastcodeanalysissucceeded
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\obj\Debug\Alphaleonis.Win32.Resources.resources
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\obj\Debug\AlphaFS.csproj.GenerateResource.Cache
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\obj\Debug\AlphaFS.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\AlphaFS\obj\Debug\AlphaFS.pdb

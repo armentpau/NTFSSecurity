@@ -1,0 +1,4 @@
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\ProcessPrivileges\bin\Debug\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\ProcessPrivileges\bin\Debug\ProcessPrivileges.pdb
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\ProcessPrivileges\obj\Debug\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\ProcessPrivileges\obj\Debug\ProcessPrivileges.pdb

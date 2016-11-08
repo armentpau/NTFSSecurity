@@ -1,0 +1,15 @@
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity-Help.xml
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.format.ps1xml
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.Init.ps1
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.psd1
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.psm1
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.types.ps1xml
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.dll
+C:\Users\pdearmen.VCPI\Users\randr\Documents\WindowsPowerShell\Modules\NTFSSecurity\NTFSSecurity.pdb
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.ShowSimpleEffectiveAccessForm.resources
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.Properties.Resources.resources
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.ShowSimpleAccessForm.resources
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.csproj.GenerateResource.Cache
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurity\obj\Debug\NTFSSecurity.pdb

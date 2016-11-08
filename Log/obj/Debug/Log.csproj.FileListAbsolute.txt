@@ -1,0 +1,5 @@
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\Log\bin\Debug\Log.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\Log\bin\Debug\Log.pdb
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\Log\obj\Debug\Log.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\Log\obj\Debug\Log.dll
+C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\Log\obj\Debug\Log.pdb
