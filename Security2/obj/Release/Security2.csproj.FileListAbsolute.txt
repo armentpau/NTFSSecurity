@@ -1,0 +1,8 @@
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\bin\Release\Security2.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\bin\Release\Security2.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\bin\Release\AlphaFS.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\bin\Release\AlphaFS.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\bin\Release\AlphaFS.xml
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\obj\Release\Security2.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\obj\Release\Security2.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Security2\obj\Release\Security2.pdb

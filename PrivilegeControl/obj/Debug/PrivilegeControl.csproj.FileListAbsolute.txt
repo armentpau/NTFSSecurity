@@ -5,3 +5,10 @@ C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\PrivilegeContro
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.csprojResolveAssemblyReference.cache
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.dll
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Debug\PrivilegeControl.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Debug\PrivilegeControl.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Debug\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Debug\ProcessPrivileges.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Debug\PrivilegeControl.pdb

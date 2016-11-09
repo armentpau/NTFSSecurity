@@ -1,0 +1,12 @@
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\NTFSSecurityTest.dll.config
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\NTFSSecurityTest.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\NTFSSecurityTest.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\Security2.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\AlphaFS.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\Security2.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\AlphaFS.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Release\AlphaFS.xml
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Release\NTFSSecurityTest.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Release\NTFSSecurityTest.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Release\NTFSSecurityTest.pdb

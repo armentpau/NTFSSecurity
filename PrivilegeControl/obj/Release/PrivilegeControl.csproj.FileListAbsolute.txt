@@ -1,0 +1,8 @@
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Release\PrivilegeControl.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Release\PrivilegeControl.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Release\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Release\ProcessPrivileges.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\bin\Release\ProcessPrivileges.xml
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Release\PrivilegeControl.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Release\PrivilegeControl.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\PrivilegeControl\obj\Release\PrivilegeControl.pdb

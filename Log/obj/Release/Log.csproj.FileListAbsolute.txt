@@ -1,0 +1,5 @@
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Log\bin\Release\Log.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Log\bin\Release\Log.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Log\obj\Release\Log.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Log\obj\Release\Log.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\Log\obj\Release\Log.pdb

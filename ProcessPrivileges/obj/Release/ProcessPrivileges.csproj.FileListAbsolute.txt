@@ -1,0 +1,7 @@
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.XML
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.dll.CodeAnalysisLog.xml
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.dll.lastcodeanalysissucceeded
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\obj\Release\ProcessPrivileges.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\obj\Release\ProcessPrivileges.pdb

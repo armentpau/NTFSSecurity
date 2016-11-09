@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges\bin\Release\ProcessPrivileges.dll">
+   <Modules>
+    <Module Name="processprivileges.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'ProcessPrivileges.dll' with a strong name key.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="ProcessPrivileges">
+       <Types>
+        <Type Name="NativeMethods" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#AdjustTokenPrivileges(ProcessPrivileges.AccessTokenHandle,System.Boolean,ProcessPrivileges.TokenPrivilege&amp;,System.Int32,ProcessPrivileges.TokenPrivilege&amp;,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.AdjustTokenPrivileges(AccessTokenHandle, bool, ref TokenPrivilege, int, ref TokenPrivilege, ref int)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CloseHandle(System.IntPtr)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.CloseHandle(IntPtr)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTokenInformation(ProcessPrivileges.AccessTokenHandle,ProcessPrivileges.TokenInformationClass,System.IntPtr,System.Int32,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.GetTokenInformation(AccessTokenHandle, TokenInformationClass, IntPtr, int, ref int)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LookupPrivilegeName(System.String,ProcessPrivileges.Luid&amp;,System.Text.StringBuilder,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.LookupPrivilegeName(string, ref Luid, StringBuilder, ref int)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LookupPrivilegeValue(System.String,System.String,ProcessPrivileges.Luid&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.LookupPrivilegeValue(string, string, ref Luid)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenProcessToken(ProcessPrivileges.ProcessHandle,ProcessPrivileges.TokenAccessRights,System.IntPtr&amp;)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Warning">P/Invoke method 'NativeMethods.OpenProcessToken(ProcessHandle, TokenAccessRights, ref IntPtr)' is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PrivilegeEnabler" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ProcessPrivileges.AccessTokenHandle,ProcessPrivileges.Privilege[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="PrivilegeEnabler.cs" Line="116">In externally visible method 'PrivilegeEnabler.PrivilegeEnabler(AccessTokenHandle, params Privilege[])', validate parameter 'privileges' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Diagnostics.Process,ProcessPrivileges.Privilege[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="PrivilegeEnabler.cs" Line="131">In externally visible method 'PrivilegeEnabler.PrivilegeEnabler(Process, params Privilege[])', validate parameter 'privileges' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Finalize()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="PrivilegeEnabler.cs" Line="140">'PrivilegeEnabler.~PrivilegeEnabler()' calls into 'PrivilegeEnabler.InternalDispose()' which has a LinkDemand. By making this call, 'PrivilegeEnabler.InternalDispose()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'PrivilegeEnabler.~PrivilegeEnabler()'&#xD;&#xA;   -&gt;'PrivilegeEnabler.~PrivilegeEnabler()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ProcessExtensions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DisablePrivilege(System.Diagnostics.Process,ProcessPrivileges.Privilege)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="159">In method 'ProcessExtensions.DisablePrivilege(this Process, Privilege)', call System.IDisposable.Dispose on object 'new ProcessHandle(process.Handle, false)' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="159">In externally visible method 'ProcessExtensions.DisablePrivilege(this Process, Privilege)', validate parameter 'process' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EnablePrivilege(System.Diagnostics.Process,ProcessPrivileges.Privilege)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="212">In method 'ProcessExtensions.EnablePrivilege(this Process, Privilege)', call System.IDisposable.Dispose on object 'new ProcessHandle(process.Handle, false)' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="212">In externally visible method 'ProcessExtensions.EnablePrivilege(this Process, Privilege)', validate parameter 'process' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetAccessTokenHandle(System.Diagnostics.Process,ProcessPrivileges.TokenAccessRights)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="252">In method 'ProcessExtensions.GetAccessTokenHandle(this Process, TokenAccessRights)', call System.IDisposable.Dispose on object 'new ProcessHandle(process.Handle, false)' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="252">In externally visible method 'ProcessExtensions.GetAccessTokenHandle(this Process, TokenAccessRights)', validate parameter 'process' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPrivileges(System.Diagnostics.Process)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="318">In method 'ProcessExtensions.GetPrivileges(this Process)', call System.IDisposable.Dispose on object 'new ProcessHandle(process.Handle, false)' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="318">In externally visible method 'ProcessExtensions.GetPrivileges(this Process)', validate parameter 'process' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RemovePrivilege(System.Diagnostics.Process,ProcessPrivileges.Privilege)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="415">In method 'ProcessExtensions.RemovePrivilege(this Process, Privilege)', call System.IDisposable.Dispose on object 'new ProcessHandle(process.Handle, false)' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-09 14:53:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\ProcessPrivileges" File="ProcessExtensions.cs" Line="415">In externally visible method 'ProcessExtensions.RemovePrivilege(this Process, Privilege)', validate parameter 'process' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeSafeCriticalFxCopRule" Category="Microsoft.Security" CheckId="CA5122">
+   <Name>P/Invoke declarations should not be safe-critical.</Name>
+   <Description>Since P/Invokes may not be called by transparent code, they should not be marked as safe-critical methods.  Doing so can lead to confusion on the part of developers who may believe that their transparent code should be able to call the P/Invoke method since it is marked safe-critical.</Description>
+   <Resolution Name="Default">P/Invoke method {0} is marked safe-critical.  Since P/Invokes may only be called by critical code, this declaration should either be marked as security critical, or have its annotation removed entirely to avoid being misleading.</Resolution>
+   <Owner />
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

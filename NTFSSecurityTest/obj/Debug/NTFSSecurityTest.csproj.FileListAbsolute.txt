@@ -10,3 +10,15 @@ C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurityTes
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.csprojResolveAssemblyReference.cache
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.dll
 C:\Users\pdearmen.VCPI\Downloads\ntfssecurity-41109\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\NTFSSecurityTest.dll.config
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\NTFSSecurityTest.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\NTFSSecurityTest.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\Security2.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\AlphaFS.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\Security2.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\AlphaFS.pdb
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\bin\Debug\AlphaFS.xml
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.csprojResolveAssemblyReference.cache
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.dll
+C:\Users\pdearmen.VCPI\Documents\repos\NTFSSecurity\NTFSSecurityTest\obj\Debug\NTFSSecurityTest.pdb
